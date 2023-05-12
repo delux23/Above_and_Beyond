@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+input[type='color']{
+	position: absolute;
+	top: 450px;
+	left: 20px;
+	z-index: 2;
+}
+img{
+	width: 500;
+	height: 200;
+}
+.bg1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33%;
+	height: 100vh;
+	mix-blend-mode: hue;
+}
+.bg2{
+	position: absolute;
+	top: 0;
+	left: 33%;
+	width: 33%;
+	height: 100vh;
+	mix-blend-mode: hue;
+}
+.bg3{
+	position: absolute;
+	top: 0;
+	left: 66%;
+	width: 33%;
+	height: 100vh;
+	mix-blend-mode: hue;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 70%;
+}

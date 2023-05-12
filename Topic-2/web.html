@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Deepali" />
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div class="bg1">
+		<input type="color" id="color1" value="#ff0000">
+		<img src="https://images.homedepot-static.com/productImages/9c4782e7-c795-4ceb-8ae4-96045b419def/svn/feit-electric-led-light-bulbs-a19-tr-led-12-64_1000.jpg" class="center">
+	</div>
+
+	<div class="bg2">
+		<input type="color" id="color2" value="00ff00">
+		<img src="https://th.bing.com/th/id/OIP.9QRRf0UkQqrSL0_laS834QHaHa?pid=ImgDet&rs=1" class="center">
+	</div>
+
+	<div class="bg3">
+		<input type="color" id="color3" value="#FFFF00">
+		<img src="https://th.bing.com/th/id/R.515d7e14485e53e80b5610ef8542e646?rik=0VHNDErecikxWw&riu=http%3a%2f%2fwww.homedepot.com%2fcatalog%2fproductImages%2f1000%2fec%2fecd3faae-968e-481b-b118-0dae67d7446c_1000.jpg&ehk=67WtlCpbAdko%2b7h3RRtwDn4bSMj1%2bvNALkqwhQvE6d0%3d&risl=&pid=ImgRaw&r=0" class="center">
+	</div>
+
+	<script>
+		
+		document.getElementById('color1').addEventListener('input', (e)=>{
+			let colValue = e.target.value;
+			document.getElementsByClassName('bg1')[0].style.background = colValue;
+		});
+
+		document.getElementById('color2').addEventListener('input', (e)=>{
+			let colValue = e.target.value;
+			document.getElementsByClassName('bg2')[0].style.background = colValue;
+		});
+
+		document.getElementById('color3').addEventListener('input', (e)=>{
+			let colValue = e.target.value;
+			document.getElementsByClassName('bg3')[0].style.background = colValue;
+		});
+	</script>
+</body>
+</html>
